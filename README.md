@@ -153,7 +153,7 @@ Use Cases:
 
 Problems:
 
- - The program doesn't accept multiword names for creating a House. 
+ - The program doesn't accept multiword names for the creation of a House. 
  - The program isn't the best implementation of an employee's view from the front end.
 
 
