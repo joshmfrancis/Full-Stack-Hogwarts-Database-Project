@@ -1,0 +1,11 @@
+StudentID,CourseID,DateOfEnrollment,EnrollmentStatus
+2940,4,2022-01-01,Enrolled
+9348,7,2022-01-03,Enrolled
+4094,8,2022-02-10,Enrolled
+6307,6,2022-03-15,Enrolled
+1354,2,2022-04-21,Enrolled
+8903,5,2022-05-09,Enrolled
+7968,5,2022-06-02,Enrolled
+8066,5,2022-07-08,Enrolled
+8629,9,2022-08-11,Enrolled
+6500,3,2022-09-19,Enrolled

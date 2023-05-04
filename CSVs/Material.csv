@@ -1,0 +1,17 @@
+MaterialID,MaterialType,MaterialName
+101,Animal,Owl
+102,Animal,Cat
+103,Animal,Rat
+104,Animal,Toad
+201,Broom,Comet 260
+202,Broom,Cleansweep 11
+203,Broom,Nimbus 3000
+204,Broom,Nimbus 2000
+301,Cauldron Volume,5 Liters
+302,Cauldron Volume,10 Liters
+303,Cauldron Volume,15 Liters
+304,Cauldron Volume,20 Liters
+401,BookISBN,6.55512E+12
+402,BookISBN,4.65567E+12
+403,BookISBN,8.93695E+12
+404,BookISBN,5.33131E+12
