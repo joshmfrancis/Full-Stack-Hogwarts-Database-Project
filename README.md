@@ -28,7 +28,7 @@ the Hogwarts School of Witchcraft and Wizardry.
 Requirement Analysis:
 
 The target audience for this project is employees of the Hogwarts School of
-Witchcraft and Wizardry. We cater to this audience by providing them with
+Witchcraft and Wizardry. I cater to this audience by providing them with
 complete control over the content and structure of Houses, students, professors,
 courses, subjects, materials, and House tasks. Our database implementation
 provides full functionality over the many assets that Hogwarts requires to
