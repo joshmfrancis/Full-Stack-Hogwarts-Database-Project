@@ -3,6 +3,9 @@ Created: 04/13/2023
 This is a full-stack database project that I created modeling the Hogwarts School of Witchcraft and Wizardry. 
 This project was made for my CSC 315 course.
 
+Below is a detailed report of the project:
+
+
 Abstract:
 
 This database is a model of the Hogwarts School of Witchcraft and Wizardry.
@@ -21,6 +24,7 @@ database through the custom commands feature. Magic is just highly developed
 technology, and it is my hope that this database would be a part of the magic at
 the Hogwarts School of Witchcraft and Wizardry.
 
+
 Requirement Analysis:
 
 The target audience for this project is employees of the Hogwarts School of
@@ -33,31 +37,38 @@ The Student table keeps track of all of the information required by a student at
 Hogwarts, including their Student ID number (primary key), first name, middle
 name, last name, date of birth, blood type, and House ID of their assigned
 House (foreign key).
+
 The Professor table keeps track of each Hogwarts professor’s ID (primary key),
 first name, middle name, last name, blood type, and House ID of their assigned
 House (foreign key).
+
 The House table holds information pertaining to the House that the Students,
 Professors, and tasks are in by including a HouseID (primary key), House
 Name, and House Points.
+
 The Tasks table holds the information necessary to section off tasks to students
 of each House by having records for the task name (primary key), the last date
 the task was completed, and the House ID that the task is designated for (foreign
 key).
+
 The Enrolls table is responsible for matching a student to a course by holding
 the following information about the enrollment status of a student: The student’s
 ID number (part of the composite key), the course’s ID they registered for (part
 of the composite key), the date of enrollment into the course, and enrollment
 status of that course.
+
 The Course table is responsible for keeping track of all of the information
 needed by a student that enrolls in a course, including the course’s ID (primary
 key), the course’s name, the start date of that course, the end date of that course,
 the room number of where that course takes place, the professor’s ID for who it
 teaching that course (foreign key), and the subject ID pertaining to the category
 of the course (foreign key).
+
 The Requires table is responsible for matching a course to the materials needed
 by that course. It does this by keeping track of the following information: the
 course’s ID (part of the composite key), and the material’s ID (part of the
 composite key).
+
 The Material table is responsible for keeping track of all of the materials needed
 for courses at Hogwarts. The information that is tracked is the material’s ID
 (primary key), the material’s type, and the material’s name.
@@ -66,10 +77,12 @@ course. This information includes the subject’s ID (primary key), the subject�
 name, and the last date that that subject had a course in its scope that was
 offered.
 
+
 Assumptions:
 
 Our assumptions in our database come from the inclusion of primary keys and
 foreign keys.
+
 The House table has a primary key, HouseID, and has a foreign key in the
 tables: Student, Professor, and Tasks. This creates a one-to-many relationship
 between House and Student/Professor/Tasks. Where one House has many tasks,
@@ -82,6 +95,7 @@ students. This creates a many-to-many relationship between the tables Student
 and Course. To manage this many-to-many relationship, the table Enrolls has
 been made to hold the foreign keys, StudentID, and CourseID from their
 respective tables.
+
 One subject has many courses, but each course only has one subject. This
 creates a one-to-many relationship between the tables Subject and Course. The
 Course table holds a foreign key SubjectID to make this happen.
@@ -94,14 +108,17 @@ of many courses. This creates a many-to-many relationship between the tables
 Course and Material. This relationship requires the creation of a third table titled
 Requires, which holds the CourseID, and MaterialID from their respective
 tables.
+
 Each of our tables has a mandatory one or mandatory many relationships
 between every table it is related to.
+
 
 Here is an ER Diagram of the database:
 
 ![ER Diagram](https://user-images.githubusercontent.com/104415326/236138948-c4987d35-61fb-4cd9-8e26-9190d35b1cc8.png)
 
 This E-R diagram illustrates the relationships between entities, attributes, and cardinality constraints in the database. 
+
 
 Here is a Schema Diagram of the database:
 
@@ -111,6 +128,7 @@ The schema diagram shows a concise view of the relationships between all nine
 of the tables. Normalization efforts were not necessary for its creation. All
 foreign keys are set to cascade on update and delete; this allows more freedom
 in the usability of the database.
+
 
 Conclusion:
 
@@ -126,15 +144,18 @@ importance of data management. Overall, this project demonstrates how the use
 of technology and sophisticated database systems can support even the most
 magical organizations.
 
+
 Use Cases:
 
 - Creating projects that can effectively store and display information through the use of relational databases and SQL queries. 
 - Furthering my knowledge of SQL, relational databases, and implementation of relational databases.
 
+
 Problems:
 
  - The program doesn't accept multiword names for creating a House. 
  - The program isn't the best implementation of an employee's view from the front end.
+
 
 Possible Work Arounds:
 
