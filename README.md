@@ -98,11 +98,13 @@ Each of our tables has a mandatory one or mandatory many relationships
 between every table it is related to.
 
 Here is an ER Diagram of the database:
+
 ![ER Diagram](https://user-images.githubusercontent.com/104415326/236138948-c4987d35-61fb-4cd9-8e26-9190d35b1cc8.png)
 
 This E-R diagram illustrates the relationships between entities, attributes, and cardinality constraints in the database. 
 
 Here is a Schema Diagram of the database:
+
 ![Schema Diagram](https://user-images.githubusercontent.com/104415326/236138960-bc275ee6-3f5f-4c17-b170-57bba8ed12d6.png)
 
 The schema diagram shows a concise view of the relationships between all nine
