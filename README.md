@@ -129,6 +129,56 @@ of the tables. Normalization efforts were not necessary for its creation. All
 foreign keys are set to cascade on update and delete; this allows more freedom
 in the usability of the database.
 
+Below are test runs of the program and it's outputs:
+
+List Students:
+
+![image](https://user-images.githubusercontent.com/104415326/236144626-d950b722-e377-48c8-b718-37ad26907572.png)
+
+Add Student: 
+
+![image](https://user-images.githubusercontent.com/104415326/236145093-9f4f6db6-46a8-4902-9b36-80f5c52796fe.png)
+
+Remove Student:
+
+![image](https://user-images.githubusercontent.com/104415326/236144728-bc9c0e44-1280-4953-8208-d764a259f23c.png)
+
+Move Student's House:
+
+![image](https://user-images.githubusercontent.com/104415326/236144803-bab5e201-adef-4821-877b-def2a3509ab8.png)
+
+Add Professor: 
+
+![image](https://user-images.githubusercontent.com/104415326/236145510-e0b5b00c-e169-445a-bf05-4f07e1c326c5.png)
+
+Move Professor's House: 
+
+![image](https://user-images.githubusercontent.com/104415326/236145296-2f917b4d-28d2-473a-926a-0cfa5b434887.png)
+
+Add House: 
+
+![image](https://user-images.githubusercontent.com/104415326/236145027-24c7bd52-86ec-4551-a218-10fc64c1f210.png)
+
+Modify House Points:
+
+![image](https://user-images.githubusercontent.com/104415326/236144866-38080e51-a07c-4b2b-9d29-f9cca35ccf43.png)
+
+Search House Task:
+
+![image](https://user-images.githubusercontent.com/104415326/236144934-bdf1da38-f3c4-4bbb-ad4a-26cca8ab64d9.png)
+
+Remove House Task:
+
+![image](https://user-images.githubusercontent.com/104415326/236144974-70c0fbb2-4796-4968-bda6-33b67faad033.png)
+
+List Subject:
+
+![image](https://user-images.githubusercontent.com/104415326/236145348-98bf2104-cbd9-4714-b454-aebe6f6b0171.png)
+
+Custom Command: 
+
+![image](https://user-images.githubusercontent.com/104415326/236145562-93d40af6-fd82-49e2-9e91-3d368eb93577.png)
+
 
 Conclusion:
 
