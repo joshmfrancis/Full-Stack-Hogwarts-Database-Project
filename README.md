@@ -137,7 +137,7 @@ mysterious elements that require careful organization. Relational databases give
 us the ability to undertake such a task. This project required me to learn about
 aspects of relational databases such as schema diagrams, entity relationship
 diagrams, MySQL Workbench, SQL commands, and Java program creation. By
-applying these concepts, we were able to develop a useful database that can
+applying these concepts, I was able to develop a useful database that can
 efficiently manage the school's assets. This project also gave me hands-on
 experience working on improving programming skills and understanding the
 importance of data management. Overall, this project demonstrates how the use
